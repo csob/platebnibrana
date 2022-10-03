@@ -4,8 +4,10 @@
 
 # Platební brána ČSOB
 
-Platební brána ČSOB poskytuje služby akceptace karet (Visa, Visa Electron, V Pay, MasterCard, Maestro, Diners Club), peněženek Apple Pay, Google Pay, odložené platby mallpay, platebních tlačítek ČSOB & Poštovní spořitelny a srovnávač spotřebitelských úvěrů NEJsplátka. 
+Platební brána ČSOB poskytuje služby akceptace karet (Visa, Visa Electron, V Pay, MasterCard, Maestro), peněženek Apple Pay, Google Pay, odložené platby mallpay, platebního tlačítka ČSOB a srovnávač spotřebitelských úvěrů NEJsplátka. 
 Platební brána může být použita jak na webu, tak v nativních mobilních aplikacích. K využití služeb brány je nutné uzavření slouvy s bankou.
+
+Akceptace Diners Club platebních karet byla ukončena k 30.9.2022.
 
 ## 1. Platební brána ČSOB a objednávka služeb
 
