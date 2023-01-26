@@ -21,7 +21,7 @@ Produktové informace najdete na [https://platbakartou.csob.cz/platebni-brana/](
 
 ## 2. Specifikace API, jak integrovat a testovat
 
-Rozhraní eAPI pro komunikaci e-shopu s platební bránou vychází z principů REST API a výměna dat probíhá v JSON formátu. Kombinuje v jednom interface jak transakční, tak obslužné funkce a je základem pro rozvoj nových služeb. Aktuálně je podporované ve verzích 1.0, 1.5, 1.6, 1.7, 1.8 a 1.9. Doporučujeme při implementaci používat nejnovější verzi, starší verze budou postupně uzavírány.
+Rozhraní eAPI pro komunikaci e-shopu s platební bránou vychází z principů REST API a výměna dat probíhá v JSON formátu. Kombinuje v jednom interface jak transakční, tak obslužné funkce a je základem pro rozvoj nových služeb. Aktuálně je podporované ve verzích 1.0, 1.5, 1.6, 1.7, 1.8 a 1.9. Doporučujeme při implementaci používat nejnovější verzi, starší verze budou postupně [uzavírány](https://github.com/csob/platebnibrana/wiki/API-Sunset).
 
 Než začnete bránu do vašeho shopu nebo mobilní aplikace eAPI integrovat, podívejte se, prosím, do [Wiki](https://github.com/csob/platebnibrana/wiki). Najdete zde kompletní dokumentaci k eAPI mezi e-shopem a bránou, návod jak simulovat různé transakční stavy a jaké používat testovací karty.
 
