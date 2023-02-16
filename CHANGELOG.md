@@ -16,6 +16,7 @@ Changelog
 * [#562](https://github.com/csob/paymentgateway/issues/562) návratové kódy oneclick/init vs. oneclick/echo
 * [#570](https://github.com/csob/paymentgateway/issues/570) expirace transakce (`ttlSec`)
 * [#615](https://github.com/csob/paymentgateway/issues/615) validace délky parametru `vatin` (DIČ zákazníka) pro mallpay z 10 na 12 znaků
+* [#657](https://github.com/csob/paymentgateway/issues/657) podpora pro ttlSec u OneClick platby
 
 **Změny ve specifikaci eAPI 1.9 oproti v1.8**
 
