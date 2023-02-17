@@ -37,15 +37,24 @@ class GooglepayInitParams extends SignBase {
         StringBuilder sb = new StringBuilder();
         add(sb, apiVersion);
         add(sb, apiVersionMinor);
+        add(sb, paymentMethodType);
         for (String value : allowedCardNetworks) {
             add(sb, value);
         }
         for (String value : allowedCardAuthMethods) {
             add(sb, value);
         }
+        add(sb, assuranceDetailsRequired);
+        add(sb, billingAddressRequired);
+        add(sb, billingAddressParametersFormat);
+        add(sb, tokenizationSpecificationType);
+        add(sb, gateway);
+        add(sb, gatewayMerchantId);
         add(sb, googlepayMerchantId);
         add(sb, merchantName);
+        add(sb, environment);
         add(sb, totalPriceStatus);
+        add(sb, countryCode);
         deleteLast(sb);
         return sb.toString();
     }
