@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/csob/platebnibrana/wiki/img/mktg/banner-new-9-2015.png/">
+  <img src="https://github.com/csob/platebnibrana/wiki/img/mktg/banner-cz.png/">
 </p>
 
 # Platební brána ČSOB
